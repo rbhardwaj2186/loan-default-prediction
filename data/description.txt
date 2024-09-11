@@ -1,0 +1,14 @@
+### Dataset Overview:
+The dataset used for this loan default prediction model contains various features related to loan applicants and their loan details.
+
+**Features:**
+- **NoEmp**: Number of employees associated with the loan applicant.
+- **CreateJob**: Number of jobs created by the loan applicant as a result of the loan.
+- **RetainedJob**: Number of jobs retained by the loan applicant.
+- **GrAppv**: The gross approval amount of the loan in dollars.
+- **SBA_Appv**: The SBA-approved portion of the loan in dollars.
+- **DisbursementGross**: The gross disbursement of the loan in dollars.
+- **RevLineCr**: Indicates whether the loan has a revolving line of credit (Y for Yes, N for No).
+
+**Target:**
+- **default**: Indicates whether the applicant defaulted on the loan (1 for Default, 0 for No Default).
