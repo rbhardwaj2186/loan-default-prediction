@@ -1,6 +1,42 @@
-# Loan Default Prediction Dashboard
+# 🚀 Loan Default Prediction Dashboard
 
-This project is a web-based loan default prediction tool built using Streamlit. The tool predicts whether a loan applicant will default or not based on user input features. It uses a pre-trained model (RandomForestClassifier) and allows interactive predictions via the web interface.
+![Loan Default Prediction Logo](D:/Work/Gre/UTD/Courses/Winter/Projects/Data Analytic Projects/Credit_Default/df.jpg)
+
+This project provides a **Loan Default Prediction Dashboard** using **Streamlit**. It predicts whether a loan applicant will default based on input features such as the number of employees, loan amount, and other financial details. The dashboard includes visualizations, allows users to enter their data for prediction, and explains the importance of key features using model explainability techniques.
+
+[![Python](https://img.shields.io/badge/Python-3.7%2B-blue.svg)](https://www.python.org/) [![Streamlit](https://img.shields.io/badge/Streamlit-Framework-orange)](https://streamlit.io/)
+
+---
+
+## 🌟 Features
+
+- 🖥️ **Interactive Dashboard**: Built with Streamlit for easy user interaction.
+- 🔍 **Loan Default Prediction**: Uses a machine learning model to predict loan default.
+- 📊 **Data Visualization**: Includes histograms, bar charts, correlation matrices, and trend lines.
+- 🔑 **Feature Importance**: Displays the significance of different features in predictions.
+- ❄️ **Snowfall Animation**: Aesthetic snowfall effect for a visual enhancement.
+
+---
+
+## 📁 Project Structure
+
+```bash
+loan-default-prediction/
+│
+├── app.py                # Main Streamlit application
+├── requirements.txt      # Dependencies
+├── README.md             # Project overview
+├── data/                 # Directory for dataset(s)
+│   └── loan_data.csv     # Dataset file
+├── models/               # Pre-trained models
+│   └── loan_model.pkl    # Pre-trained loan prediction model
+├── src/                  # Source folder for your project
+│   ├── __init__.py       # Module initialization
+│   ├── data_preprocessing.py  # Data preprocessing script
+│   ├── model_training.py      # Model training script
+│   ├── prediction.py          # Prediction script
+│   └── utils.py               # Utility functions
+└── .gitignore            # Files to ignore in version control
 
 ![df](https://github.com/user-attachments/assets/cb79fbe7-f928-44af-8443-8902dea92518)
 
