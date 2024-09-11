@@ -2,6 +2,8 @@
 
 This project is a web-based loan default prediction tool built using Streamlit. The tool predicts whether a loan applicant will default or not based on user input features. It uses a pre-trained model (RandomForestClassifier) and allows interactive predictions via the web interface.
 
+![Loan Default Prediction Logo](D:/Work/Gre/UTD/Courses/Winter/Projects/Data Analytic Projects/Credit_Default/df.jpg)
+
 ## Project Structure
 
 ```bash
