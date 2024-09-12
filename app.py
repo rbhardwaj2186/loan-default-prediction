@@ -12,7 +12,7 @@ from src.graphs import plot_histograms, plot_bar_charts, plot_correlation_matrix
 import joblib  # For saving and loading the model
 
 # Display the logo
-st.image('D:/Work/Gre/UTD/Courses/Winter/Projects/Data Analytic Projects/Credit_Default/df.jpg', use_column_width=True)
+st.image('images/df.jpg', use_column_width=True)
 
 # Define model path
 model_path = 'models/loan_model.pkl'
