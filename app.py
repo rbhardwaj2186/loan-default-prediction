@@ -75,7 +75,7 @@ with st.expander("📊 About the Dataset and Features", expanded=True):
     st.markdown(description_text)
 
 # Load dataset
-@st._cache_data
+@st.cache_data
 def load_data():
     return pd.read_csv('data/load_data.csv')
 
