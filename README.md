@@ -1,5 +1,8 @@
 # 🚀 Loan Default Prediction Dashboard
 
+https://github.com/user-attachments/assets/dd97498e-904f-4107-b64e-e986aa147b17
+
+
 ![Loan Default Prediction Logo](D:/Work/Gre/UTD/Courses/Winter/Projects/Data Analytic Projects/Credit_Default/df.jpg)
 
 This project provides a **Loan Default Prediction Dashboard** using **Streamlit**. It predicts whether a loan applicant will default based on input features such as the number of employees, loan amount, and other financial details. The dashboard includes visualizations, allows users to enter their data for prediction, and explains the importance of key features using model explainability techniques.
